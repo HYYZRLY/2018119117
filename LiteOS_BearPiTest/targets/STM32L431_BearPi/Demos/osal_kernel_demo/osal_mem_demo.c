@@ -47,3 +47,4 @@ int standard_app_demo_main()
     osal_task_create("mem_access_task",mem_access_task_entry,NULL,0x400,NULL,11);
     return 0;
 }
+
